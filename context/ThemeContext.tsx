@@ -41,7 +41,9 @@ export default function ThemeContextProvider({
       if (localTheme === "dark") {
         document.documentElement.classList.add("dark");
       }
-    } 
+    } else {
+      setTheme("dark"); // default to dark theme
+    }
   }, []);
 
   return (
