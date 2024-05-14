@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Ankara, Turkey",
     description:
-      "I'm now a full-stack developer working for a travel agency for booking flights.",
+      "I'm now a full-stack developer working for a travel agency, building their online flight booking system.",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
