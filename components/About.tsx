@@ -25,18 +25,17 @@ export default function About() {
         I also enrolled in a coding bootcamp on Udemy and learned{" "}
         <span className="font-bold">full-stack web development</span>. My core
         stack is{" "}
-        <span className="font-bold">React, Next.js, Node.js, and MongoDB</span>,
-        and I mostly use <span className="font-bold">TypeScript</span> and
-        <span className="font-bold"> Prisma</span> in my projects.
+        <span className="font-bold">
+          React, Next.js, Node.js and PostgreSQL
+        </span>
+        , and I mostly use <span className="font-bold">TypeScript</span> and
+        <span className="font-bold"> Drizzle ORM</span> in my projects.
       </p>
       <p>
         I am currently developing an android game using{" "}
         <span className="font-bold">React Native</span>, and it will be
         published soon on the{" "}
-        <span className="font-bold">Google Play Store</span>. I am always
-        looking to learn new technologies. I am currently looking for a{" "}
-        <span className="font-bold">full-time position</span> as a software
-        developer.
+        <span className="font-bold">Google Play Store</span>
       </p>
     </motion.section>
   );

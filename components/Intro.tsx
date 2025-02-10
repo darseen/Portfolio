@@ -30,11 +30,11 @@ export default function Intro() {
           }}
         >
           <Image
-            src="/pic.jpeg"
+            src="/intro.png"
             alt="portrait"
             quality={95}
-            width={72}
-            height={72}
+            width={700}
+            height={200}
             priority={true}
             className="rounded-full object-cover border-2 border-white shadow-xl"
           />
@@ -46,12 +46,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-10 mt-4 px-4 text-lg font-medium !leading-[1.5] sm:text-4xl"
       >
-        <span className="font-bold">{`I'm Mohammed.`}</span> {`I'm a`}{" "}
-        <span className="font-bold">full-stack developer.</span> My focus is{" "}
-        <span className="font-bold">React(Next.js)</span> for developing web
-        applications, and
-        <span className="font-bold"> React Native</span> for developing
-        cross-platform mobile apps.
+        <span className="font-bold">{`I'm Mohammed.`}</span> {`I'm a `}
+        <span className="font-bold">Full-Stack engineer</span> specializing in{" "}
+        <span className="font-bold">React (Next.js)</span> for web applications
+        and <span className="font-bold">React Native</span> for cross-platform
+        mobile development.
       </motion.h1>
 
       <motion.div
@@ -74,7 +73,7 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
-          href="/CV.pdf"
+          href="/cv-en.pdf"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
         >
@@ -90,7 +89,7 @@ export default function Intro() {
             <BsLinkedin />
           </a>
           <a
-            href="https://github.com/Darseen"
+            href="https://github.com/darseen"
             target="_blank"
             className="bg-white p-4 text-gray-700 text-[1.35rem] flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10 hover:text-gray-950 dark:bg-white/10 dark:text-white/60"
           >
